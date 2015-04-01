@@ -1,0 +1,31 @@
+Config:
+   - seeInConfig
+   - dontSeeInConfig
+
+Db:
+   - haveRecord
+   - grabRecord
+   - seeRecord
+   - dontSeeRecord
+
+Misc:
+   - loadFixtures
+
+Router:
+   - amOnRoute
+   - amOnAction
+   - seeCurrentRouteIs
+   - seeCurrentActionIs
+
+Session:
+   - haveInSession
+   - seeInSession
+   - dontSeeInSession
+
+Memcache
+
+Auth:
+   - haveUser
+   - seeCurrentUserIs (id, username, email) => manage user
+   - dontSeeCurrentUserIs (id, username, email) => manage user
+

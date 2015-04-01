@@ -1,0 +1,26 @@
+Codeception PHP Testing Framework v2.0.11
+Powered by PHPUnit 4.5.1 by Sebastian Bergmann and contributors.
+
+[1mAcceptance Tests (0) [22m------------------------
+---------------------------------------------
+
+[1mFunctional Tests (1) [22m--------------------------------------------------------------------------------------------------------
+Trying to [35;1mperform actions and see result[39;22m (WelcomeCept) ... [35;1mPerform actions and see result[39;22m (WelcomeCept)                                                                           [37;41mError[39;49m
+-----------------------------------------------------------------------------------------------------------------------------
+
+[1mUnit Tests (0) [22m------------------------------
+---------------------------------------------
+
+
+Time: 281 ms, Memory: 8.25Mb
+
+There was 1 error:
+
+---------
+1) Failed to perform actions and see result in [1mWelcomeCept[22m (/Users/lucknerjb/workspace/cakephp1-3/tests/functional/WelcomeCept.php)
+#1  /Users/lucknerjb/workspace/cakephp1-3/tests/functional/WelcomeCept.php:5
+#2  /Users/lucknerjb/workspace/cakephp1-3/tests/functional/WelcomeCept.php:5
+#3  Codeception\TestCase\Cept->testCodecept
+
+FAILURES!
+Tests: 1, Assertions: 0, Errors: 1.

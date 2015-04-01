@@ -1,0 +1,13 @@
+{
+   "name": "lucknerjb/cakephp1-3",
+   "authors": [
+      {
+         "name": "Luckner Jr. Jean-Baptiste",
+         "email": "lucknerjb@gmail.com"
+      }
+   ],
+   "require": {},
+   "require-dev": {
+      "codeception/codeception": "~2.0"
+   }
+}
